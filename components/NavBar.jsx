@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link';
 import React, { useState } from 'react';
 const links = [
@@ -11,8 +12,15 @@ const NavBar = () => {
     const [open, setOpen] = useState(false);
     return (
         <div className=' h-full flex items-center justify-between px-4  md:px-12'>
+            <div className='hidden md:flex gap-4'>
+                {
+                    links.map(link => (
+                        <Link href={link.url} key={link.title}>{link.title}</Link>
+                    ))
+                }
+            </div>
             {/* LOGO */}
-            <div>
+            <div className='md:hidden'>
                 <Link href="/"
                     className='bg-black rounded-md p-1 font-semibold text-sm flex items-center justify-center  '
                 >
@@ -21,9 +29,11 @@ const NavBar = () => {
                 </Link>
             </div>
             {/* RESPONSIVE MENU */}
-            <div className=''>
+            <div className='md:hidden'>
                 {/* MENU BUTTON */}
-                <button className='w-10 h-8 flex flex-col justify-between z-50 relative'>
+                <button className='w-10 h-8 flex flex-col justify-between z-50 relative'
+                    onClick={() => setOpen((perv) => !perv)}
+                >
                     <div className='w-10 h-1 bg-black rounded'></div>
                     <div className='w-10 h-1 bg-black rounded'></div>
                     <div className='w-10 h-1 bg-black rounded'></div>
