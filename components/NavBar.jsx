@@ -8,7 +8,7 @@ const NavBar = () => {
                 <Link href="/"
                     className='bg-black '
                 >
-                    <span>Rohan</span>
+                    <span className=''>Rohan</span>
                     <span>.Dev</span>
                 </Link>
             </div>
