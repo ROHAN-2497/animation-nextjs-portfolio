@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 const links = [
     { url: "/", title: "home" },
     { url: "/about", title: "About" },
@@ -8,6 +8,7 @@ const links = [
 ]
 
 const NavBar = () => {
+    const [open, setOpen] = useState(false);
     return (
         <div className=' h-full flex items-center justify-between px-4  md:px-12'>
             {/* LOGO */}
@@ -22,20 +23,23 @@ const NavBar = () => {
             {/* RESPONSIVE MENU */}
             <div className=''>
                 {/* MENU BUTTON */}
-                <button className='w-10 h-8 flex flex-col justify-between'>
+                <button className='w-10 h-8 flex flex-col justify-between z-50 relative'>
                     <div className='w-10 h-1 bg-black rounded'></div>
                     <div className='w-10 h-1 bg-black rounded'></div>
                     <div className='w-10 h-1 bg-black rounded'></div>
                 </button>
             </div>
             {/* MENU LIST */}
-            <div className=''>
-                {
-                    links.map(link =>(
-                        <Link href={link.url} key={link.title}>{link.title}</Link>
-                    ))
-                }
-            </div>
+            {
+                open && (<div className='absolute top-0 left-0 w-screen h-screen bg-red-50  text-black flex flex-col justify-center gap-8 text-4xl font-medium items-center'>
+                    {
+                        links.map(link => (
+                            <Link href={link.url} key={link.title}>
+                                {link.title}</Link>
+                        ))
+                    }
+                </div>
+                )}
         </div>
     );
 };
