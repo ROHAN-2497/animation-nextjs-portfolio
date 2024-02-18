@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 const links = [
@@ -20,13 +21,23 @@ const NavBar = () => {
                 }
             </div>
             {/* LOGO */}
-            <div className='md:hidden'>
+            <div className='md:hidden lg:flex'>
                 <Link href="/"
                     className='bg-black rounded-md p-1 font-semibold text-sm flex items-center justify-center  '
                 >
                     <span className='text-white mr-1'>Rohan </span>
                     <span className='bg-white rounded-sm flex items-center justify-center  w-12 h-8'>.Dev</span>
                 </Link>
+                <div className='hidden md:flex gap-4 '>
+                    <Link href="/">
+                        <Image src='/pngwing.com.png' alt='' width={24} height={24}></Image>
+                    </Link>
+                    <Link href="/">
+                        <Image src='/public/' alt='' width={24} height={24}></Image>
+                    </Link>
+              
+                    
+                </div>
             </div>
             {/* RESPONSIVE MENU */}
             <div className='md:hidden'>
