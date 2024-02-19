@@ -21,7 +21,7 @@ const NavBar = () => {
                 }
             </div>
             {/* LOGO */}
-            <div className='md:hidden lg:flex'>
+            <div className='md:hidden lg:flex gap-8'>
                 <Link href="/"
                     className='bg-black rounded-md p-1 font-semibold text-sm flex items-center justify-center  '
                 >
@@ -30,13 +30,16 @@ const NavBar = () => {
                 </Link>
                 <div className='hidden md:flex gap-4 '>
                     <Link href="/">
-                        <Image src='/pngwing.com.png' alt='' width={24} height={24}></Image>
+                        <Image src='/facebook.png' alt='' width={24} height={24}></Image>
                     </Link>
                     <Link href="/">
-                        <Image src='/public/' alt='' width={24} height={24}></Image>
+                        <Image src='/github.png' alt='' width={24} height={24}></Image>
                     </Link>
-              
-                    
+                    <Link href="/">
+                        <Image src='/linkedin-logo.png' alt='' width={24} height={24}></Image>
+                    </Link>
+
+
                 </div>
             </div>
             {/* RESPONSIVE MENU */}
