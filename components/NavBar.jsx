@@ -10,6 +10,7 @@ const links = [
     { url: "/contact", title: "Contact" }
 ]
 
+
 const NavBar = () => {
     const [open, setOpen] = useState(false);
     return (
@@ -23,29 +24,29 @@ const NavBar = () => {
                 }
             </div>
             {/* LOGO */}
-          
-               <div className='md:hidden lg:flex  xl:w-1/3 xl:justify-center '
-               > <Link href="/"
-                    className='bg-black rounded-md p-1 font-semibold text-sm flex items-center justify-center'
-                >
+
+            <div className='md:hidden lg:flex  xl:w-1/3 xl:justify-center '
+            > <Link href="/"
+                className='bg-black rounded-md p-1 font-semibold text-sm flex items-center justify-center'
+            >
                     <span className='text-white mr-1'>Rohan </span>
                     <span className='bg-white rounded-sm flex items-center justify-center  w-12 h-8'>.Dev</span>
                 </Link></div>
-                <div className='hidden md:flex gap-4 w-1/3 '>
-                    {/* SOCIAL  */}
-                    <Link href="/">
-                        <Image src='/facebook.png' alt='' width={24} height={24}></Image>
-                    </Link>
-                    <Link href="/">
-                        <Image src='/github.png' alt='' width={24} height={24}></Image>
-                    </Link>
-                    <Link href="/">
-                        <Image src='/linkedin-logo.png' alt='' width={24} height={24}></Image>
-                    </Link>
+            <div className='hidden md:flex gap-4 w-1/3 '>
+                {/* SOCIAL  */}
+                <Link href="/">
+                    <Image src='/facebook.png' alt='' width={24} height={24}></Image>
+                </Link>
+                <Link href="/">
+                    <Image src='/github.png' alt='' width={24} height={24}></Image>
+                </Link>
+                <Link href="/">
+                    <Image src='/linkedin-logo.png' alt='' width={24} height={24}></Image>
+                </Link>
 
 
-                </div>
-            
+            </div>
+
             {/* RESPONSIVE MENU */}
             <div className='md:hidden'>
                 {/* MENU BUTTON */}
