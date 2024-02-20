@@ -23,13 +23,14 @@ const NavBar = () => {
                 }
             </div>
             {/* LOGO */}
-            <div className='md:hidden lg:flex gap-8 w-1/3 justify-center items-center'>
-                <Link href="/"
-                    className='bg-black rounded-md p-1 font-semibold text-sm flex items-center justify-center  '
+          
+               <div className='md:hidden lg:flex  xl:w-1/3 xl:justify-center '
+               > <Link href="/"
+                    className='bg-black rounded-md p-1 font-semibold text-sm flex items-center justify-center'
                 >
                     <span className='text-white mr-1'>Rohan </span>
                     <span className='bg-white rounded-sm flex items-center justify-center  w-12 h-8'>.Dev</span>
-                </Link>
+                </Link></div>
                 <div className='hidden md:flex gap-4 w-1/3 '>
                     {/* SOCIAL  */}
                     <Link href="/">
@@ -44,7 +45,7 @@ const NavBar = () => {
 
 
                 </div>
-            </div>
+            
             {/* RESPONSIVE MENU */}
             <div className='md:hidden'>
                 {/* MENU BUTTON */}
