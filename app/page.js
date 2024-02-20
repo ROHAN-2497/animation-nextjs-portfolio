@@ -1,3 +1,4 @@
+import PAge from "@/components/new";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         />
       </div>
       {/* TEXT CONTAINER */}
-      <div className="h-1/2 lg:h-full lg:w-1/2  flex flex-col gap-8 items-center justify-center">
+      <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
         {/* TITLE */}
         <h1 className="md:text-6xl text-4xl font-bold">Crafting  Digital Expreiences, Desining Tomorrow</h1>
         {/* DESC  */}
@@ -21,6 +22,7 @@ export default function Home() {
           <button className="rounded p-4 ring-1 ring-black ">Contact Me</button>
         </div>
       </div>
+
     </div>
   );
 }
