@@ -13,12 +13,12 @@ const links = [
 const NavBar = () => {
     const [open, setOpen] = useState(false);
     return (
-        <div className=' h-full flex items-center justify-between px-4  md:px-12 text-xl'>
+        <div className=' h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl'>
             {/* LINKS  */}
             <div className='hidden md:flex gap-4 w-1/3'>
                 {
                     links.map(link => (
-                       <NavLinks link={link} key={link.title} />
+                        <NavLinks link={link} key={link.title} />
                     ))
                 }
             </div>
