@@ -1,6 +1,7 @@
 "use client"
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from "framer-motion"
 import React, { useState } from 'react';
 import NavLinks from './NavLinks';
 const links = [
@@ -53,9 +54,9 @@ const NavBar = () => {
                 <button className='w-10 h-8 flex flex-col justify-between z-50 relative'
                     onClick={() => setOpen((perv) => !perv)}
                 >
-                    <div className='w-10 h-1 bg-black rounded'></div>
-                    <div className='w-10 h-1 bg-black rounded'></div>
-                    <div className='w-10 h-1 bg-black rounded'></div>
+                    <motion.div className='w-10 h-1 bg-black rounded'></motion.div>
+                    <motion.div className='w-10 h-1 bg-black rounded'></motion.div>
+                    <motion.div className='w-10 h-1 bg-black rounded'></motion.div>
                 </button>
             </div>
             {/* MENU LIST */}
