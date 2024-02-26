@@ -142,22 +142,6 @@ const NavBar = () => {
 
 export default NavBar;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// "use Client"
 // import React from 'react';
 // import motion from 'framer-motion';
 
@@ -193,4 +177,3 @@ export default NavBar;
 // };
 
 // export default About;
-
