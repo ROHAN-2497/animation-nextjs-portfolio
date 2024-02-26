@@ -1,18 +1,9 @@
-"use Client"
-import React from 'react';
-import motion from 'framer-motion';
+"use Client";
+import React from "react";
 
 const About = () => {
   return (
-    <motion.div
-      className="h-full"
-      initial={{ y: "-200vh" }}
-      animate={{ y: "0%" }}
-      transition={{ duration: 1 }}
-    >
-      {/* CONTAINER */}
-      
-    </motion.div>
+    <div></div>
   );
 };
 
