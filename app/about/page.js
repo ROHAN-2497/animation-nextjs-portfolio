@@ -150,9 +150,82 @@ const About = () => {
             </div>
           </div>
           {/* {EXPERIENCE CONTAINER}  */}
-          <div className="flex flex-col gap-12 justify-center">
-            {/* SKILL TITLE */}
+          <div className="flex flex-col gap-12 justify-center pb-48">
+            {/* EXPERIENCE TITLE */}
             <h1 className="font-bold text-2xl">EXPERIENCE</h1>
+            {/*  EXPERIENCE LIST  */}
+            <div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div>
+                {/* LEFT  */}
+                <div>
+                  {/* JOB TITLE */}
+                  <div>Junior JavaScript Developer</div>
+                  {/* JOB DESC */}
+                  <div>
+                    I led web development, offering expertise in JavaScript
+                    frameworks.
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div>
+                  {/* LINE */}
+                  <div>
+                    {/* CIRCLE */}
+                    <div></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div></div>
+              </div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div>
+                {/* LEFT  */}
+                <div></div>
+                {/* CENTER */}
+                <div>
+                  {/* LINE */}
+                  <div>
+                    {/* CIRCLE */}
+                    <div></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div>
+                  {" "}
+                  {/* JOB TITLE */}
+                  <div>Junior JavaScript Developer</div>
+                  {/* JOB DESC */}
+                  <div>
+                    I led web development, offering expertise in JavaScript
+                    frameworks.
+                  </div>
+                </div>
+              </div>
+              {/* EXPERIENCE LIST ITEM */}
+              <div>
+                {/* LEFT  */}
+                <div>
+                  {/* JOB TITLE */}
+                  <div>Junior JavaScript Developer</div>
+                  {/* JOB DESC */}
+                  <div>
+                    I led web development, offering expertise in JavaScript
+                    frameworks.
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div>
+                  {/* LINE */}
+                  <div>
+                    {/* CIRCLE */}
+                    <div></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div></div>
+              </div>
+            </div>
           </div>
         </div>
         {/* SVG CONTAINER */}
