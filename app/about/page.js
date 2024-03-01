@@ -9,7 +9,7 @@ const About = () => {
       transition={{ duration: 1 }}
     >
       {/* CONTAINER */}
-      <div>
+      <div className=" h-full overflow-scroll">
         {/* TEXT CONTAINER */}
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-54">
           {/* {BIOGRAPHY CONTAINER}  */}
@@ -156,19 +156,25 @@ const About = () => {
             {/*  EXPERIENCE LIST  */}
             <div>
               {/* EXPERIENCE LIST ITEM */}
-              <div>
+              <div className="flex justify-between h-48">
                 {/* LEFT  */}
-                <div>
+                <div className="w-1/3 bg-red-200">
                   {/* JOB TITLE */}
-                  <div>Junior JavaScript Developer</div>
+                  <div className="bg-white font-semibold p-3 rounded-b-lg ruounded-s-lg ">
+                    Junior JavaScript Developer
+                  </div>
                   {/* JOB DESC */}
-                  <div>
-                    I led web development, offering expertise in JavaScript
-                    frameworks.
+                  <div className="p-3 text-sm italic">
+                    I am Learner I always try to Better
+                  </div>
+                  {/* LEARNING DATE */}
+                  <div className="text-red-400 text-sm font-semibold">
+                    {" "}
+                    2023-2024 Present
                   </div>
                 </div>
                 {/* CENTER */}
-                <div>
+                <div className="w-1/6 bg-red-600">
                   {/* LINE */}
                   <div>
                     {/* CIRCLE */}
@@ -176,7 +182,7 @@ const About = () => {
                   </div>
                 </div>
                 {/* RIGHT */}
-                <div></div>
+                <div className="w-1/3 bg-red-200"></div>
               </div>
               {/* EXPERIENCE LIST ITEM */}
               <div>
