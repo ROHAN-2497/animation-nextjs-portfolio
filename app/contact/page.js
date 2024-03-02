@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
   const [success, setSuccess] = useState(false);
@@ -8,6 +9,31 @@ const ContactPage = () => {
   const text = "Say Hello";
 
   const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setError(false);
+    setSuccess(false);
+
+    emailjs
+      .sendForm(
+        process.env.NEXT_PUBLIC_SERVICE_ID,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
+        }
+      )
+      .then(
+        () => {
+          setSuccess(true);
+          form.current.reset();
+        },
+        (error) => {
+          setError(true);
+        }
+      );
+  };
 
   return (
     <motion.div
@@ -43,7 +69,7 @@ const ContactPage = () => {
           ref={form}
           className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
-          <span>Dear Lama Dev,</span>
+          <span>Dear Rohan Dev,</span>
           <textarea
             rows={6}
             className="bg-transparent border-b-2 border-b-black outline-none resize-none"
