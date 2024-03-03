@@ -1,13 +1,12 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/components/NavBar";
-import TransitionProvider from "@/components/TransitionProvider";
+import TransitionProvider from "@/components/transitionProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Rohan Dev Portfolio",
-  description: "animation portfolio",
+  title: "Rohan Dev Portfolio App",
+  description: "The best animated portfolio page",
 };
 
 export default function RootLayout({ children }) {
