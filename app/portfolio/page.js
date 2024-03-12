@@ -16,26 +16,26 @@ const items = [
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
+    title: "Woman Perlour Client",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    img: "/salon_valenti_skin_care_services.jpg",
+    link: "https://main--woman-perlour-with-rohandev.netlify.app/",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
     title: "My Github Account",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "/download.png",
-    link: "https://github.com/ROHAN-2497",
+    img: "/429555066_414011704481896_5416324689294451862_n.jpg",
+    link: "https://my-porfolio-ckfm3p59p-rohann69.vercel.app/",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
     title: "Spotify Music App",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
+    img: "/download.png",
+    link: "https://github.com/ROHAN-2497",
   },
 ];
 
