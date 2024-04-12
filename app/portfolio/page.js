@@ -32,9 +32,9 @@ const items = [
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
+    title: "My Github Account",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "/download.png",
+    img: "/429555066_414011704481896_5416324689294451862_n.jpg",
     link: "https://github.com/ROHAN-2497",
   },
 ];
