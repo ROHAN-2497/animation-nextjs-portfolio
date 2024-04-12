@@ -27,7 +27,7 @@ const items = [
     title: "My Github Account",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "/429555066_414011704481896_5416324689294451862_n.jpg",
-    link: "https://my-porfolio-ckfm3p59p-rohann69.vercel.app/",
+    link: "https://real-rohann69s-projects.vercel.app/",
   },
   {
     id: 4,
