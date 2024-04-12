@@ -24,9 +24,9 @@ const items = [
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "My Github Account",
+    title: "Rohan Real state",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "/429555066_414011704481896_5416324689294451862_n.jpg",
+    img: "C:/istockphoto-1006542210-612x612.jpg",
     link: "https://real-rohann69s-projects.vercel.app/",
   },
   {
