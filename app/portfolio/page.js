@@ -21,14 +21,16 @@ const items = [
     img: "/salon_valenti_skin_care_services.jpg",
     link: "https://main--woman-perlour-with-rohandev.netlify.app/",
   },
+
   {
     id: 3,
-    color: "from-violet-300 to-purple-300",
+    color: "from-purple-300 to-red-300",
     title: "Rohan Real state",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "C:/istockphoto-1006542210-612x612.jpg",
-    link: "https://real-rohann69s-projects.vercel.app/",
+    img: "/302282268_452962096848517_7528793692054981456_n.jpg",
+    link: "https://real-rohann69s-projects.vercel.app",
   },
+
   {
     id: 4,
     color: "from-purple-300 to-red-300",
