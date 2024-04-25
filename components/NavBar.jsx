@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import NavLinks from "./NavLinks";
 const links = [
-  { url: "/", title: "home" },
+  { url: "/", title: "Home" },
   { url: "/about", title: "About" },
   { url: "/portfolio", title: "Portfolio" },
   { url: "/contact", title: "Contact" },
