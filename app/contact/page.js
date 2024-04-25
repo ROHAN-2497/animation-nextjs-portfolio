@@ -57,7 +57,6 @@ const ContactPage = () => {
                   delay: index * 0.1,
                 }}
               >
-                vercel
                 {letter}
               </motion.span>
             ))}
